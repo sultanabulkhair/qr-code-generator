@@ -14,12 +14,3 @@ A lightweight, interactive web application built with Python and Streamlit that 
 * **[Streamlit](https://streamlit.io/):** For the interactive web interface.
 * **[qrcode](https://pypi.org/project/qrcode/):** For generating the mathematical matrix of the QR code.
 * **[Pillow (PIL)](https://pillow.readthedocs.io/):** For high-quality image manipulation, anti-aliasing, and alpha-compositing (transparency) of the logo.
-
-## 🚀 Running the App Locally
-
-If you want to run this application on your own machine rather than using the hosted cloud version, follow these steps:
-
-### 1. Clone the repository
-```bash
-git clone [https://github.com/yourusername/qr-code-generator.git](https://github.com/yourusername/qr-code-generator.git)
-cd qr-code-generator
