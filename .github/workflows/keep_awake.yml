@@ -8,14 +8,6 @@ on:
 jobs:
   ping:
     runs-on: ubuntu-latest
-    
-    # Required permission for the keepalive action to push a commit
-    permissions:
-      contents: write 
-      
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Ping the Streamlit app
         run: curl -sL https://my-qr-app.streamlit.app/ > /dev/null
