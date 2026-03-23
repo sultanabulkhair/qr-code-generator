@@ -19,9 +19,3 @@ jobs:
 
       - name: Ping the Streamlit app
         run: curl -sL https://my-qr-app.streamlit.app/ > /dev/null
-
-      - name: Keepalive Workflow
-        uses: gautamkrishnar/keepalive-workflow@v2
-        with:
-          # Optional: customizes the commit message
-          commit_message: "chore: keepalive dummy commit to prevent workflow suspension"
