@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping the Streamlit app
-        run: curl -sL https://my-qr-app.streamlit.app/ > /dev/null
+        run: curl -c cookies.txt -b cookies.txt -sL https://my-qr-app.streamlit.app/ > /dev/null
